@@ -1,1 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Science, Computer Engineering, and Robotics Multimodal Repository</title>
+</head>
+<body>
+    <!- Haven't worked out the syntax yet compeletely -->
+    <h1>Works Cited</h1>
+    <p>Habib, Hasan, et al. "Development and Implementation of Enhanced Shortest Path Algorithm for Navigation of Mobile Robot for Warehouse Automation (MRWA)." 
+    2019 7th International Electrical Engineering Congress (iEECON), <a>https://ieeexplore.ieee.org/document/8938954</a></p>
+    <a>https://jupyter.org/ </a>
+    <a>https://businessanalyst.techcanvass.com/objective-of-exploratory-data-analysis/</a>
+    <a>https://tips.hackathon.com/article/what-is-a-hackathon</a>
+    <a>https://www.geeksforgeeks.org/introduction-to-scratch-programming-2/</a>
+    <a>https://code.visualstudio.com/docs/editor/whyvscode</a>
 
+</body>
+</html>
