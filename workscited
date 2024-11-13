@@ -7,14 +7,16 @@
 </head>
 <body>
     <!- Haven't worked out the syntax yet compeletely -->
+    <!- MLA Format + Lexicographically Organized -->
     <h1>Works Cited</h1>
+    <p>Gautam, Vikash. "Introduction to Scratch Programming." <i>GeeksforGeeks</i>, 21 Jul. 2021, <a>https://www.geeksforgeeks.org/introduction-to-scratch-programming-2/</a></p>
     <p>Habib, Hasan, et al. "Development and Implementation of Enhanced Shortest Path Algorithm for Navigation of Mobile Robot for Warehouse Automation (MRWA)." 
-    2019 7th International Electrical Engineering Congress (iEECON), <a>https://ieeexplore.ieee.org/document/8938954</a></p>
-    <p>"Project Jupyter Documentation." Project Jupyter, <a>https://jupyter.org/</a></p>
-    <a>https://businessanalyst.techcanvass.com/objective-of-exploratory-data-analysis/</a>
-    <a>https://tips.hackathon.com/article/what-is-a-hackathon</a>
-    <a>https://www.geeksforgeeks.org/introduction-to-scratch-programming-2/</a>
-    <a>https://code.visualstudio.com/docs/editor/whyvscode</a>
+        <i>2019 7th International Electrical Engineering Congress (iEECON)</i>, <a>https://ieeexplore.ieee.org/document/8938954</a></p>
+    <p>"Project Jupyter Documentation." <i>Project Jupyter</i>, <a>https://jupyter.org/</a></p>
+    <p>Telang, Priya. "Uncover Insights using Exploratory Data Analysis (EDA)." <i>TechCanvass</i>, 23 Sep. 2024, <a>https://businessanalyst.techcanvass.com/objective-of-exploratory
+        -data-analysis/</a></p>
+    <p>"What is a Hackathon?" <i>Hackathon.com</i>, 22. Dec 2021, <a>https://tips.hackathon.com/article/what-is-a-hackathon</a></p>
+    <p>"Why did we build Visual Studio Code?" <i>Visual Studio Code</i>, 29 Oct. 2024, <a>https://code.visualstudio.com/docs/editor/whyvscode</a></p>
 
 </body>
 </html>
