@@ -49,16 +49,50 @@
 
   <!-- Begin main content -->
   <main>
+    <div class="mx-5 w-50" style="max-width: 676px;">
 
-    <!-- Page introduction -->
-    <div class="px-4 py-2 my-2">
-      <h1>Title</h1>
-      <p>By James Kerrane</p>
-    </div>
+      <!-- Page introduction -->
+      <div class="py-2 my-2">
+        <h1 class="display-5">Title</h1>
+        <p>By James Kerrane</p>
+      </div>
 
-    <!-- Page content -->
-    <div class="px-3">
-      <h2>
+      <!-- Page content -->
+      <div class="mb-2">
+        <span class="badge badge-pill badge-dark align-middle text-bg-primary">Glossary Term</span> <span
+          class="h2 align-middle">Localization</span>
+      </div>
+
+      <p>Localization is a term in software development and other creative fields which, <a
+          href="#merriam-webster">according to Merriam Webster</a>,
+        means "to make local". When releasing a software project like a video game for a global audience, there may be
+        some elements of the
+        source material that requires modification for the project to be understood across cultural barriers. If
+        software is designed for a language that is written from left to right, the user
+        interface might need to be adapted to support languages that are written from right to left.
+
+      <blockquote class="px-3 text-bg-secondary blockquote">
+        <p dir="auto">هذه الفقرة باللغة العربية ، لذا يجب الانتقال من اليمين إلى اليسار.</p>
+        <p dir="auto">This paragraph is in Arabic, so you must move from right to left.</p>
+      </blockquote>
+
+      Jokes that rely on specific cultural knowledge or language features like puns may need to be rewritten to make sense in a target language. For example, in the game Purrgatory, originally written in American English, a reference is made to the popular American cereal Froot Loops. When the game was translated to European Spanish for a spanish audience, the reference to Froot Loops was changed to white chocolate, a more universal reference <a href="#torre-galán">(Torre Galán)</a>.
+
+      <table class="table">
+        <tr>
+          <th>Original text</th>
+          <th>Localized text</th>
+          <th>English translation of localized text</th>
+        </tr>
+        <tr>
+          <td>did you know all froot loops are the same flavor?</td>
+          <td>¿sabías que el chocolate blanco no es chocolate en realidad?</td>
+          <td>did you know that white chocolate isn't actually chocolate?</td>
+        </tr>
+      </table>
+
+      </p>
+      <!-- <h2>
         <span class="badge text-bg-primary">Peer-reviewed article</span> Article
         Title
       </h2>
@@ -73,14 +107,22 @@
           <span class="badge text-bg-primary">Social/Cultural Engagement</span>
           Social/cultural way to engage within the discipline
         </h2>
-        <p>Thoughful and thurough description of at least 150 words.</p>
-    </div>
-    <hr />
+        <p>Thoughful and thurough description of at least 150 words.</p> -->
   </main>
   <!-- End main content -->
+  <hr />
 
+  <div class="mx-5">
+    <h2>Works Cited</h2>
+    <div style="text-indent: 3em hanging;">
+      <p id="merriam-webster">“Localize.” <i>Merriam-Webster.com Dictionary</i>, Merriam-Webster, <a
+          href="https://www.merriam-webster.com/dictionary/localize">https://www.merriam-webster.com/dictionary/localize</a>.
+        Accessed 12 Nov. 2024.</p>
+      <p id="torre-galán">de la Torre Galán, Samuel. "Purrgatory: Lenguaje inclusivo y transcreación en la localización de videojuegos." <i>Digibug</i>, Universidad de Granada, 23 June 2022, <a href="https://digibug.ugr.es/handle/10481/75661">https://digibug.ugr.es/handle/10481/75661</a>. Accessed 14 Nov. 2024.</p>
+    </div>
+  </div>
   <!-- Begin next/previous navigation -->
-  <nav>
+  <nav class="mx-auto">
     <ul class="pagination">
       <li class="page-item"><a class="page-link" href="anika.html">Previous</a></li>
       <li class="page-item"><a class="page-link" href="ethan.html">Next</a></li>
