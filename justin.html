@@ -52,17 +52,30 @@
 
     <!-- Page introduction -->
     <div class="px-4 py-2 my-2">
-      <h1>Title</h1>
+      <h1>Computer Engineering</h1>
       <p>By Justin</p>
     </div>
 
     <!-- Page content -->
     <div class="px-3">
       <h2>
-        <span class="badge text-bg-primary">Peer-reviewed article</span> Navigating the Seismic Shift of Post-Moore Computer Systems Design
-        Title
+        <span class="badge text-bg-primary">Peer-reviewed article</span> <a href = "https://ieeexplore.ieee.org/document/9623405">  Navigating the Seismic Shift of Post-Moore Computer Systems Design
+          Title</a>
       </h2>
-      <p>Thoughful and thurough description of at least 150 words.</p>
+          <p> Many in the field of computing may be familiar with Moore’s Law, the observation that transistor count in integrated 
+            circuits doubles roughly every two years. In recent years, however, the pattern has started to break down. As transistors
+            begin to reach smaller sizes that push against the boundaries of physics, it has become increasingly difficult to pack more
+            transistors and exponentiate the performance of new chips. In light of these concerns, some design optimizations have been
+            made. Companies have replaced singular powerful CPU cores with an increased number of lightweight processors, and 
+            manufacturers have begun dedicating over half the surface area of chips to accelerators. These improvements come with
+            their own challenges, however; rapidly evolving computer architecture offers less portability from software from one 
+            generation to another, which opens the floor to reliability and security concerns.
+          </p>
+          <p> As of now, the National Science Foundation (NSF) is taking measures to mitigate this dramatic shift in Moore’s Law. 
+            Funding is already being directed into research endeavors surrounding scalability, special purpose integrated circuits,
+            and cybersecurity.
+          </p>
+          <hr />
       <h2><span class="badge text-bg-primary">Platform</span> C/C++</h3>
           <p> Created in 1972 by Dennis Ritchie, C historically has been one of the most widely used programming languages.
             Its applications lie primarily in operating systems code, device drivers, and protocol stacks, where it can be 
@@ -82,18 +95,122 @@
             products and is a valuable language to learn.
           </p>
         <h2>
-          <span class="badge text-bg-primary">Glossary Term</span> VLSI
-        </h2>
-        <p>
-          Text
-          </p>
+          <hr />
+        <h2><span class="badge text-bg-primary">Platform</span> KiCAD</h3>
+            <p> KiCAD is a free electronic design automation (EDA) program used to design electronic hardware that can be 
+              manufactured into printed circuit boards (PCBs). First created in 1992, it has since gone through numerous updates
+              to expand its features and capabilities. It is now most prominently used among hobbyists and educational teams.
+            </p>
+
+            <p> Applications of KiCAD range from designing a simple circuit using a microcontroller to taking on more robust 
+              and comprehensive projects involving hundreds of circuit components and large volumes of electricity. There are 
+              two primary design tools in KiCAD: the schematic editor and PCB layout tool. Creating schematics on KiCAD can be 
+              likened to drawing circuit diagrams on paper using common symbols; its purpose is to create a blueprint of a 
+              circuit before it is actually built. Once a schematic is finished, it can be exported to the PCB layout where users
+              can construct the layout of physical components and send their final design to a PCB manufacturer, where a green
+              circuit board will be constructed and shipped to them.
+            </p>
+          
+            <p> Though there are alternative paid EDA software more widely used in industry, like Altium or EAGLE, KiCAD stands
+                as one of the most versatile and comprehensive free EDAs. It is fully capable of designing electrical projects both
+                large and small, making it a valuable program to add to an engineer’s skillset.
+            </p>
+        
+            <b><p>Schematics made in KiCAD</p></b>
+            <img src="12V GND Splitter schematic.png" alt="Schematic 1" width="800" height="575">
+            <br>
+            <img src="ESP32 Oscilloscope Schematic.png" alt="Schematic 1" width="750" height="560">
+            <br>
+
+            <b><p>PCB layouts in KiCAD</p></b>
+            <img src="KiCAD PCB.png" alt="Schematic 1" width="800" height="450">
+            <br>
+
+        <hr />
         <h2>
-          <span class="badge text-bg-primary">Social/Cultural Engagement</span>
-          Social/cultural way to engage within the discipline
+          <span class="badge text-bg-primary">Glossary Term</span> IC and VLSI
         </h2>
-        <p>Thoughful and thurough description of at least 150 words.</p>
-    </div>
-    <hr />
+            <p> IC refers to integrated circuits, or small chips comprised of multiple electronic components (transistors, resistors, 
+              capacitors) etched onto semiconductor material. They are fabricated via photolithography, a process by which UV light 
+              transfers patterns onto a single unit of silicon wafer. As opposed to using discrete circuit components, photolithography
+              allows for a high density of transistors in a small form factor, allowing ICs to offer incredibly high performance. 
+              They can be found in virtually all modern devices because of their low manufacturing cost and efficiency. 
+            </p>
+            <p> VLSI, or very-large-scale integration, refers to integrated circuits with millions or billions of components on a 
+              single chip, enabling the functionality of a CPU, ROM, and RAM among others to be localized in a condensed package. 
+              Every new generation of high-end processing devices like graphics cards and CPUs relies on adding more transistors or
+              optimizing layout in VLSI. As small electronic components start to reach their physical limits, however, new means 
+              of improving chips are required.
+            </p>
+
+            <b><p>A VLSI integrated-circuit</p></b>
+            <!-- <img src="Diopsis.jpg" alt="A VLSI integrated-circuit die" width="400" height="400">
+            <br>
+            <br> -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/7d1eyZBpLn8?si=3ulxWK1XSJIwUBGJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <hr />
+        <h2><span class="badge text-bg-primary">Glossary Term</span> FPGAs
+        </h2>
+            <p> FPGAs, or Field Programmable Gate Arrays, are integrated circuits that can have their hardware reconfigured for specific
+              use cases “in the field”. They are comprised of Configurable Logic Blocks, or CLBs, which contain registers, memory, and
+              function generators that enable them to behave like logic gates. To reconfigure an FPGA, an engineer typically can place
+              and route components by programming in a hardware description language (HDL) like Verilog. These languages generally
+              have preexisting libraries that define complex functions for the programmers to use, expediting the the reconfiguration
+              process significantly.
+            </p>
+            <p> FPGAs are used in a variety of applications that range from automobiles to space avionics. Especially for satellites
+               and other spacecraft in orbit, the FPGAs become incredibly useful for reconfiguring their hardware systems remotely.
+                FPGAs are also power efficient and can offer real-time response, making them well suited for safety applications 
+                like blind spot warning and cruise control. Due to their prevalence in hardware systems that aren’t explicitly 
+                related to computer chips, knowing how to program and use an FPGA is highly sought after.
+            </p>
+        
+        <hr />
+        <h2>
+          <span class="badge text-bg-primary">Social/cultural way to engage within the discipline </span>
+          Makerspaces (the Hive)
+        </h2>
+            <p> One of the best environments to engage with computer engineering is building projects at the Hive, Georgia Tech’s ECE
+              makerspace. The facility is equipped with a variety of tools, ranging from soldering irons to 3D printers to 
+              oscilloscopes. They also have an inventory of electronic components that are free to take—like resistors or 
+              capacitors—as well as more specialized components can be checked out with a Buzzcard. Open Mondays to Fridays from 
+              10AM to 6PM, the Hive staffs a number of peer instructors who are capable of supporting you in any project. Any 
+              student seeking to get hands-on experience in ECE skills can come to the Hive to get started            
+            </p>
+            <p>
+              Every now and then the Peer instructors host workshops that students can RSVP to attend. These cover a wide array 
+              of subjects; beyond teaching common ECE topics like how to use an Arduino, they lead miscellaneous lessons like how
+              to make a candle or learn the inner workings of a combination lock. For any student out there, computer engineering
+              or not, the Hive is a fantastic, free cultural means of engaging with the fundamentals of ECE. 
+            </p>
+
+            <b><p>A project made at the Hive</p></b>
+            <img src="ESP32 oscilloscope 1.jpg" alt="A Hive project example" width="400" height="400">
+            <br>
+            <br>
+            <iframe width="365" height="383" src="https://www.youtube.com/embed/3J1id4JITC8" title="ESP32 Oscilloscope - displaying voltage on an ST7735 screen" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <!- MLA Format + Lexicographically Organized -->
+            <hr />
+            <h3>Works Cited</h3>
+            <p class="hanging-indent" id="id_source6">Banerjee, Anindya, et al. “Navigating the Seismic Shift of Post-Moore Computer Systems Design | IEEE Journals & Magazine | IEEE Xplore.” <i>IEEE</i>, 22 Nov. 2021, <a href="ieeexplore.ieee.org/document/9623405/"></a>.</p>
+            <p><div id="id_source1"></div>“Explore.” 
+                <i>The Hive Makerspace</i>, <a href="hive.ece.gatech.edu/explore/">hive.ece.gatech.edu/explore/</a>.</p>
+            <p><div id="id_source2"></div>Gregerson, Erik. “C.” <i>Encyclopedia Britannica</i>, <a href="www.britannica.com/technology/C-computer-programming-language">www.britannica.com/technology/C-computer-programming-language</a>.</p>
+            <p><div id="id_source4"></div>“KiCad EDA - A Cross Platform and Open Source Electronics Design Automation Suite.” <i>KiCAD</i>, <a href="www.kicad.org/">www.kicad.org/</a>.</p>
+            <p><div id="id_source5"></div>Ltd., Arm. “What Is an FPGA?”<i>YouTube</i>, <a href="www.arm.com/glossary/fpga#:~:text=Field%20Programmable%20Gate%20Arrays%20(FPGAs,requirements%20after%20the%20manufacturing%20process">www.arm.com/glossary/fpga#:~:text=Field%20Programmable%20Gate%20Arrays%20(FPGAs,requirements%20after%20the%20manufacturing%20process. </a>.</p>
+            <p><div id="id_source5"></div>MicroscopyChannel. “ZOOMING TO SEE THE TRANSISTORS IN CPU!”<i>Arm</i>,16 Sept. 2020, <a href="www.youtube.com/watch?v=7d1eyZBpLn8">www.youtube.com/watch?v=7d1eyZBpLn8</a>.</p>
+            <p><div id="id_source3"></div>Pawale, Vaibhav. “Integrated Circuits: SSI, MSI, LSI, VLSI, Ulsi.” <i>Medium</i>, Medium, 26 May 2021, <a href="vaibhav-pawale19.medium.com/integrated-circuits-ssi-msi-lsi-vlsi-ulsi-eb8eea61e6a5">vaibhav-pawale19.medium.com/integrated-circuits-ssi-msi-lsi-vlsi-ulsi-eb8eea61e6a5</a>.</p>
+            <p><div id="id_source3"></div>Schneider, Josh, and Ian Smalley. “What Is a Field Programmable Gate Array (FPGA)?” <i>IBM</i>, 8 May 2024, <a href="www.ibm.com/think/topics/field-programmable-gate-arrays">www.ibm.com/think/topics/field-programmable-gate-arrays</a>.</p>
+            <p><div id="id_source3"></div>Volle, Adam. “C++.”  <i>Encyclopedia Britannica</i>, <a href="www.britannica.com/technology/C-computer-language">www.britannica.com/technology/C-computer-language</a>.</p>
+
+            <hr />
+          </div>
+/*
+
+*/
+          
   </main>
   <!-- End main content -->
 
