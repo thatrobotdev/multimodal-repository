@@ -1,3 +1,7 @@
 .content-width {
     max-width: 850px;
 }
+
+.monospace-quote {
+    font-size: 0.9em
+}
