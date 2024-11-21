@@ -1,0 +1,26 @@
+/* Set Times New Roman font for the entire page */
+body {
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  /* Make all headings smaller */
+  h1 {
+    font-size: 2em;
+    /* Adjust size as needed */
+  }
+
+  h2 {
+    font-size: 1.5em;
+    /* Adjust size as needed */
+  }
+
+  h3 {
+    font-size: 1.2em;
+    /* Adjust size as needed */
+  }
+
+  /* Hanging indent for citations */
+  .hanging-indent {
+    text-indent: -2em;
+    padding-left: 2em;
+  }

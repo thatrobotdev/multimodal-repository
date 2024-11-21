@@ -1,0 +1,8 @@
+.hanging-indent {
+    text-indent: -1.5em;
+    /* Indent lines after the first line */
+    padding-left: 2em;
+    /* Create space for the first line */
+    margin: 0;
+    /* Optional: remove default paragraph margin */
+}

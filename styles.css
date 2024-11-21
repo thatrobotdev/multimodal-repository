@@ -1,0 +1,7 @@
+/* Global Stylesheet */
+
+/* Make the navbar sticky */
+.navbar {
+    position: sticky;
+    top: 0;
+}
